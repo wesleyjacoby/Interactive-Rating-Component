@@ -11,7 +11,6 @@ form.addEventListener('submit', function (event) {
     event.preventDefault();
     for (button of radioButtons) {
         if (button.checked) {
-            console.log(button.value);
             rating.append(button.value);
             mainContainer.classList.add('fade-in');
             innerContainer.classList.add('hide');
