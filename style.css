@@ -187,7 +187,7 @@ button:hover {
 
 @media screen and (min-width: 400px) {
     .main-container {
-        max-width: 23.75rem;
+        max-width: 25.75rem;
     }
 
     .inner-container {
