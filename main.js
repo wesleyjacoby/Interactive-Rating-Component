@@ -18,5 +18,4 @@ form.addEventListener('submit', function (event) {
             innerContainer2.classList.remove('hide');
         }
     }
-
 })
