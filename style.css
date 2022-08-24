@@ -190,6 +190,14 @@ button:hover {
         max-width: 23.75rem;
     }
 
+    .inner-container {
+        padding: 2rem;
+    }
+
+    .inner-container2 {
+        padding: 2rem;
+    }
+
     .star-icon {
         margin-bottom: 1.875rem;
         width: 3rem;
