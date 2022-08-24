@@ -36,7 +36,6 @@ body {
 }
 
 .main-container {
-    max-width: 20.4375rem;
     min-width: 17.5rem;
     height: fit-content;
     background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
@@ -184,4 +183,33 @@ button:hover {
 
 .score {
     height: 1.125rem;
+}
+
+@media screen and (min-width: 400px) {
+    .main-container {
+        max-width: 380px;
+    }
+
+    .heading {
+        font-size: 28px;
+    }
+
+    .paragraph {
+        font-size: 15px;
+        line-height: 1.5rem;
+    }
+
+    #rating-form label {
+        width: 51px;
+        height: 51px;
+        font-size: 1rem;
+    }
+
+    .your-score {
+        font-size: 0.9375rem;
+        line-height: 1.5rem;
+        padding: 0.3125rem 1.1875rem;
+        border-radius: 1.40625rem;
+        margin-bottom: 1.8125rem;
+    }
 }
